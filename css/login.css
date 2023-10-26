@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background image */
+.back {
+    height: 46.1rem;
+}
+
+.back img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+/* main  */
+.main{
+    position: absolute;
+    top: 8rem;
+    left: 35rem;
+    background-color: white;
+    width: 28rem;
+    height: 30rem;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 8px;
+    box-shadow: whitesmoke  7px 0.3rem 1rem;
+    padding: 10px;
+}
+
+.head{
+    margin: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(79,79,79);
+}
+
+.form input{
+    width: 92%;
+    height: 3rem;
+    font-size: 1.5rem;
+    margin: 0.8rem;
+    text-align: center;
+    margin-inline: 1.2rem;
+    border-radius: 8px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.btn{
+    width: 92%;
+    height: 3rem;
+    font-size: 1.2rem;
+    margin: 0.8rem;
+    background-color: brown;
+    color: white;
+    border-radius: 8px;
+    border-color: transparent;
+    margin-inline: 1.2rem;
+}
+
+.btn:hover{
+    background-color:rgb(223, 60, 60);
+    cursor: pointer;
+}
+
+hr{
+    width: 92%;
+    margin-top: 0.5rem;
+    margin-inline: 1.2rem;
+}
+.or{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(122, 120, 120);
+    font-weight: 600;
+}
+
+.btn1{
+    width: 92%;
+    height: 3rem;
+    font-size: 1.2rem;
+    margin: 0.8rem;
+    border-radius: 8px;
+    border: 1px solid rgb(122, 120, 120);
+    color: rgb(105, 105, 105);
+    margin-inline: 1.2rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+.account{
+    font-size: 1.2rem;
+    margin: 1.2rem;
+    color: rgb(122, 120, 120);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.acc{
+    text-decoration: none;
+    color: brown;
+    font-family: 'Montserrat', sans-serif;
+}
+

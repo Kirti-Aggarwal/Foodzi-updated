@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /* background */
+ .back img {
+    width: 236%;
+}
+
+/* navbar section */
+.navbar {
+    width: 76rem;
+}
+
+.logo {
+    font-size: 3rem;
+}
+
+.nav li a {
+    font-size: 2.3rem;
+}
+
+/* main section */
+.heading {
+    width: 60rem;
+}
+
+.main {
+    width: 211%;
+    margin-inline: 4rem;
+}
+
+.main img {
+    width: 609px;
+}
+
+.main p {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+/* footer section */
+.footer {
+    width: 236%;
+}
+
+.block {
+    width: 79rem;
+}
+
+.col1 {
+    font-size: 2rem;
+}
+
+.head {
+    font-size: 2rem;
+}
+

@@ -1,0 +1,820 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    background: url(img/bg1.jpg);
+    height: 625px;
+    background-size: cover;
+}
+
+/* Navigation Bar */
+.nav1 {
+    display: flex;
+    /* width: 87rem; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.logo {
+    /* margin: 0px 30px;
+    padding: 10px 20px; */
+    color: brown;
+    padding: 25px;
+    font-size: 2rem;
+    margin-left: 55px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item1 {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    padding: 2px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.item1 :hover {
+    color: brown;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.h-class {
+    display: flex;
+    justify-content: flex-end;
+    width: 78rem;
+}
+
+.h-class li {
+    list-style: none;
+    margin-inline: 10px;
+}
+
+.item a {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    padding: 2px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.item a:hover {
+    /* color: #fc8019; */
+    color: brown;
+    /* background-color: white; */
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.menu2 {
+    display: none;
+}
+
+.menu1 {
+    padding: 29px 20px;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 134px 75px;
+    background-size: cover;
+}
+
+.home h1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.home h3,
+p {
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    margin-top: 12px;
+    padding: 2px 20px;
+    border: 2px solid black;
+    background-color: brown;
+    /* background-color:rgb(188, 48, 48); */
+    color: white;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    font-weight: 600;
+}
+
+.btn:hover {
+    /* color: #fc8019; */
+    color: brown;
+    background-color: white;
+    cursor: pointer;
+    transition: 2s;
+}
+
+/* Services Section */
+.services-container {
+    /* background: rgb(248, 248, 248); */
+    background-color: rgb(204, 202, 202);
+}
+
+#services {
+    margin: 34px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-block: 20px;
+    height: 18rem;
+    margin-left: calc(8% + 10px);
+    margin-right: calc(8% + 10px);
+}
+
+.services-container h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 25px;
+}
+
+.box {
+    margin-inline: 13px;
+    /* padding: 34px; */
+    width: 15rem;
+
+}
+
+.box img {
+    width: 100%;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.box img:hover{
+    padding: 5px;
+}
+
+.box h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+/* cards section */
+.cards-container h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 25px;
+}
+
+.card {
+    margin-left: calc(8% + 10px);
+    margin-right: calc(8% + 10px);
+}
+
+.grid {
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin: 32px 16px;
+}
+
+.cards:hover {
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 18px;
+    box-shadow: rgba(28, 28, 28, 0.08) 7px 0.8rem 1rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.size {
+    width: 24rem;
+    height: 18rem;
+}
+
+.size img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.flex {
+    display: flex;
+    padding-block: 7px;
+    padding-inline: 19px;
+    justify-content: space-between;
+}
+
+.flex h2{
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    background-color: rgb(38, 126, 62);
+    gap: 4px;
+    border-radius: 11px;
+    padding-inline: 4px;
+    gap: 4px;
+}
+
+.rating h3 {
+    color: white;
+}
+
+.rating i{
+    font-size: small;
+}
+
+.flex h4 {
+    color: rgb(105, 105, 105);
+    font-family: Okra, Helvetica, sans-serif
+}
+
+/* brand section */
+.brand-container h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 25px;
+}
+
+#brands {
+    margin: 34px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: calc(8% + 10px);
+    margin-right: calc(8% + 10px);
+}
+
+.brand1 {
+    width: 15rem;
+    height: 15rem;
+}
+
+.brand1 a img {
+    width: 180px;
+    height: 160px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+/* footer section */
+
+.footer {
+    background-color: rgb(204, 202, 202);
+    /* background-color: black; */
+    /* height: 150px; */
+    width: 100%;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 55rem;
+    margin-inline: 18rem;
+    padding-block: 5rem;
+    position: relative;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.col h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    /* color: white; */
+}
+
+.col1 {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    /* padding: 7px; */
+    font-size: 1.2rem;
+    font-weight: 300;
+    /* line-height: 2.1rem; */
+    color: rgb(105, 105, 105);
+    ;
+    margin: 0.5rem 0px;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon1 {
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+    font-size: 24px;
+}
+
+.col img {
+    padding: 7px;
+    width: 158px;
+    height: 61px;
+}
+
+.copy {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    padding: 15px;
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    #main {
+        width: 252%;
+        height: 58rem;
+    }
+
+    /* nav section */
+    .logo {
+        margin-left: 0px;
+        font-size: 4rem;
+    }
+
+    .nav {
+        position: absolute;
+        top: 125px;
+        left: 0px;
+        right: 0px;
+        width: 252vw;
+        background: violet;
+        transition: 0.2s;
+        justify-content: initial;
+        /* height: 35rem; */
+        height: 0;
+        overflow: hidden;
+    }
+
+    .nav ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        margin: 6rem 15rem;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .nav.active {
+        height: 35rem;
+        opacity: 1;
+    }
+
+    .item a {
+        font-size: 2.5rem;
+        padding-block: 1rem;
+        width: 20rem;
+    }
+
+    .item1 {
+        font-size: 4.2rem;
+    }
+
+    /* 
+    .display {
+        display: none;
+    } */
+
+    .menu2 {
+        display: initial;
+
+    }
+
+    /* home section */
+    .home h1 {
+        width: 100%;
+        font-size: 8.5rem;
+        text-align: center;
+        margin-top: 8rem;
+    }
+
+    .home h3,
+    p {
+        width: 100%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .home p {
+        display: none;
+    }
+
+    .fbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        width: 252px;
+        height: 96px;
+        border-radius: 51px;
+        font-size: 2.2rem;
+    }
+
+    /* services container */
+
+    .services-container {
+        width: 252vw;
+        height: 48rem;
+    }
+
+    .services-container h1 {
+        font-size: 3rem;
+        padding-block: 35px;
+    }
+
+    #services {
+        height: 14rem;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        padding: 5px;
+    }
+
+    .box h2 {
+        font-size: 2.5rem;
+    }
+
+    /* card section */
+    .cards-container {
+        width: 252vw;
+    }
+
+    .card {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .size {
+        width: 240vw;
+        height: 45rem;
+    }
+
+    .flex h2 {
+        font-size: 3.5rem;
+    }
+
+    .rating h3 {
+        font-size: 1.8rem;
+    }
+
+    .rating i {
+        font-size: 1.8rem;
+    }
+
+    .flex h4{
+        font-size: 1.8rem;
+    }
+
+    /* brand section */
+    .brand-container {
+        width: 252vw;
+    }
+
+    .brand-container h1 {
+        font-size: 3rem;
+    }
+
+    #brands {
+        flex-wrap: wrap;
+    }
+
+    /* footer section */
+    .footer {
+        width: 252vw;
+    }
+
+    .block {
+        flex-wrap: wrap;
+        width: 228vw;
+        margin-inline: 50px;
+        padding-block: 3rem;
+    }
+
+    .col h6 {
+        font-size: 2.2rem;
+        letter-spacing: 0.4rem;
+    }
+
+    .col1 {
+        font-size: 2rem;
+    }
+
+    .icon1 {
+        font-size: 48px;
+    }
+
+    .col a img {
+        width: 17rem;
+        height: 7rem;
+    }
+
+    .space {
+        margin-left: 70vw;
+    }
+
+    .copy {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width:390px) {
+    .services-container {
+        width: 252vw;
+        height: 65rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width:768px) {
+
+    /* nav section */
+    .logo {
+        font-size: 4rem;
+    }
+
+    .h-class {
+        width: 165vw;
+    }
+
+    .item a {
+        padding: 23px 20px;
+        font-size: 2.1rem;
+        font-weight: 600;
+    }
+
+    #main {
+        width: 256vw;
+        height: 58rem;
+    }
+
+    /* home section */
+    .home h1 {
+        width: 100%;
+        font-size: 8.5rem;
+        text-align: center;
+        margin-top: 8rem;
+    }
+
+    .home h3,
+    p {
+        width: 100%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .fbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        width: 252px;
+        height: 96px;
+        border-radius: 51px;
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    /* services container */
+    .services-container {
+        width: 256vw;
+        height: 28rem;
+    }
+
+    .services-container h1 {
+        font-size: 3.5rem;
+    }
+
+    .box {
+        padding: 4px;
+    }
+
+    .box h2 {
+        font-size: 2.5rem;
+    }
+
+    #services {
+        height: 16rem;
+    }
+
+    /* card section */
+    .cards-container {
+        width: 256vw;
+    }
+
+    .cards-container h1{
+        font-size: 3.5rem;
+    }
+
+    .card {
+        margin-left: calc(7% + 10px);
+    }
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .size {
+        width: 105vw;
+        height: 30rem;
+    }
+
+    .flex{
+        padding-inline: 8px;
+    }
+
+    .flex h2{
+        font-size: 2.8rem;
+    }
+
+    .flex h4 {
+        font-size: 2rem;
+    }
+
+    .rating h3{
+        font-size: 2rem;
+    }
+
+    .rating i{
+        font-size: 2rem;
+    }
+
+    /* brand section */
+    .brand-container {
+        width: 256vw;
+    }
+
+    .brand-container h1 {
+        font-size: 3.5rem;
+    }
+
+    /* footer */
+    .footer {
+        width: 256vw;
+    }
+
+    .block {
+        margin-inline: 15rem;
+    }
+
+    .col h6 {
+        font-size: 2.2rem;
+    }
+
+    .col1 {
+        font-size: 2rem;
+    }
+
+    .icon1 {
+        font-size: 45px;
+    }
+
+    .col img {
+        width: 16rem;
+        height: 6rem;
+    }
+
+    .copy {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1250px) {
+
+    /* navsection */
+    .logo {
+        margin-left: 0px;
+    }
+
+    .h-class {
+        width: 70vw;
+    }
+
+    .item a {
+        padding: 10px 0px;
+        font-size: 1.3rem;
+    }
+
+    /* home section */
+    .home h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .home h3,
+    p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        padding: 0px;
+    }
+
+    .box img {
+        width: 88%;
+    }
+
+    .box h2 {
+        font-size: 1.5rem;
+    }
+
+    /* services */
+    #services {
+        height: 35vh;
+    }
+
+    .brand1 {
+        height: 11rem;
+    }
+
+    .brand1 a img {
+        width: 98px;
+    }
+
+    .block {
+        width: 93vw;
+        margin-inline: 2rem;
+        padding-block: 2rem;
+    }
+
+    /* card section */
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        margin-left: calc(5% + 10px);
+        margin-right: calc(5% + 10px);
+    }
+
+    .size {
+        width: 40vw;
+    }
+
+    .flex{
+        padding-inline: 0px;
+    }
+}
+
+@media (min-width: 1250px) and (max-width:1496px) {
+    .h-class {
+        width: 65vw;
+    }
+
+    .card {
+        margin-left: calc(2% + 10px);
+        margin-right: calc(2% + 10px);
+    }
+}
