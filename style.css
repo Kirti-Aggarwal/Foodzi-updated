@@ -376,7 +376,7 @@ p {
         left: 0px;
         right: 0px;
         width: 252vw;
-        background: violet;
+        background-color: brown;
         transition: 0.2s;
         justify-content: initial;
         /* height: 35rem; */
@@ -395,25 +395,28 @@ p {
     }
 
     .nav.active {
-        height: 35rem;
+        height: 41rem;
+        opacity: 1;
+    }
+
+    .nav.active ul{
         opacity: 1;
     }
 
     .item a {
-        font-size: 2.5rem;
-        padding-block: 1rem;
+        font-size: 3rem;
+        padding-block: 1.5rem;
         width: 20rem;
+    }
+
+    .item a:hover {
+        color: white;
     }
 
     .item1 {
         font-size: 4.2rem;
     }
-
-    /* 
-    .display {
-        display: none;
-    } */
-
+    
     .menu2 {
         display: initial;
 
